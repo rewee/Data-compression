@@ -76,7 +76,7 @@ for(int j=1;j<n;j++)
 	q.push(temp1);
 	if(j==n-1) root = temp1;
 }
-//traverse binary tree using dfs
+//traverse binary tree
 root->a = "";
 traverse(root);
 
